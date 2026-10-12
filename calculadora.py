@@ -18,5 +18,6 @@ def division(a, b):
 
 
 def calcular_total(precio, cantidad):
+    resultado_temporal = precio * cantidad
     total = precio * cantidad
     return total
