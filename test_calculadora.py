@@ -28,3 +28,8 @@ def test_calcular_total():
 
 def test_calcular_total():
     assert calcular_total(12, 3) == 36
+
+
+    def calcular_total(p,c):
+x = p * c
+return x
