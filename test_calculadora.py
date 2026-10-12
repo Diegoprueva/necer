@@ -18,4 +18,13 @@ def test_division():
 
 
 def test_calcular_total():
+    assert calcular_total(12, 3) == 1
+
+
+
+def test_calcular_total():
+    assert calcular_total(12, 3) == 36
+
+
+def test_calcular_total():
     assert calcular_total(12, 3) == 36
