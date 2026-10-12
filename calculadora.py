@@ -15,3 +15,8 @@ def multiplicacion(a, b):
 
 def division(a, b):
     return a / b
+
+
+def calcular_total(precio, cantidad):
+    total = precio * cantidad
+    return total

@@ -1,4 +1,4 @@
-from calculadora import division, multiplicacion, resta, suma
+from calculadora import calcular_total, division, multiplicacion, resta, suma
 
 
 def test_suma():
@@ -15,3 +15,7 @@ def test_multiplicacion():
 
 def test_division():
     assert division(20, 5) == 4
+
+
+def test_calcular_total():
+    assert calcular_total(12, 3) == 36
